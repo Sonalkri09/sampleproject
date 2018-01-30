@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Myapp</title>
-	<style>
+	<style type="text/css">
 		h1,p{
 			text-align: center;
 			color:yellow;
@@ -11,6 +11,27 @@
 		}
 		iframe{
 			margin:20px;
+		}
+
+		#search{
+			width: 200px;
+			padding: 7px;
+			border: 1px solid white;
+			text-align: center;
+
+		}
+		#submit{
+			padding: 7px;
+			background-color: yellow;
+			border:1px solid white;
+			color: red;
+			margin-left: -5px;
+			text-align: center
+
+		}
+		#submit:hover{
+			background-color: white;
+			transition: all 0.40s;
 		}
 	</style>
 </head>
@@ -21,5 +42,10 @@
     <div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/RVBp5apTwYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     
+
+   <form action="https://www.google.com">
+   	<input type="text" placeholder="Search..." maxlength="20" id="search">
+   	<input type="submit" value="Go!" id="submit">
+   </form>
 </body>
 </html>
