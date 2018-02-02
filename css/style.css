@@ -3,13 +3,21 @@
 	padding: 0;
 }
 
-body{
-	background-image: =url(../img/wel.jpg);
+body{                      
 	background-size: cover;
 	width:80%;
 	margin:auto;
 }
 
+blockquote{
+	text-align: center;
+	font-size: 30px;
+	color:#ff8080;
+	padding: 30px;
+	margin-top: 30px;
+}
+
+/*----------heading styling----*/
 
 h1{
 	font-size: 50px;
@@ -17,30 +25,29 @@ h1{
 	letter-spacing: 2px;
 	text-align: center;
 	color:yellow;
-	padding: 5px;
-	margin-top: 50px;
+	padding: 50px;
+	margin-top: 10px;
 	text-transform: uppercase;
 	text-shadow: 0 1px 0 red;
 	margin:auto;
-	}
- 
+}
+
+/*---------header-------*/
 
 header ul{
-list-style: none;
+	list-style: none;
 }
 
 header ul li {
 	display: inline;
-text-decoration: none;
-color:#ff9933;
-padding: 10px;
-padding-left: 0;
-margin:auto;
-font-size:20px;
+	padding: 20px;
+	font-size: 20px;
 }
 
 header ul li a{
 	text-decoration: none;
+	color:#ff9933;
+	margin-top: 20px;
 }
 
 header ul li a:hover{
@@ -50,13 +57,33 @@ color: red;
 
 iframe{
 		margin:20px;
-	}
+		padding: 70px;
+		padding-left: 250px;
+}
 
 /*------------------footer-------*/
-footer ul li, .foot{
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li {
+	display: inline;
+	padding: 20px;
+	font-size: 20px;
+}
+
+footer ul li a{
 	display: inline-block;
 	margin-left: 20px;
 	list-style: none;
+	color:#ff6699;
+	float: right;
+	text-decoration: none;
+}
 
+footer ul li a:hover{
+	text-decoration: underline;
+	color: white;
 }
 	

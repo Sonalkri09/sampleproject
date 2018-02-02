@@ -1,2 +1,2 @@
 # sampleproject
-this is the repository of sample
+This is a repository of project using HTML5, CSS3 and 960 grid system. 
